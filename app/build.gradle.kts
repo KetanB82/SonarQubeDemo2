@@ -1,5 +1,13 @@
 plugins {
     id("com.android.application")
+    id("org.sonarqube") version "4.4.1.3373"
+}
+
+sonar {
+    properties {
+        property("sonar.projectKey", "KetanB82_SonarQubeDemo2_748644ff-2e48-4cad-8bc9-121a3d2fbbe5")
+        property("sonar.projectName", "SonarQubeDemo2")
+    }
 }
 
 android {
