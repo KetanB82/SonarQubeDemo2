@@ -1,14 +1,14 @@
 plugins {
     id("com.android.application")
-    id("org.sonarqube") version "4.4.1.3373"
+    id("org.sonarqube") version "3.3"
 }
 
-sonar {
+sonarqube {
     properties {
-        property("sonar.projectKey", "KetanB82_SonarQubeDemo2_748644ff-2e48-4cad-8bc9-121a3d2fbbe5")
+        property("sonar.projectKey", "KetanB82_SonarQubeDemo2")
         property("sonar.projectName", "SonarQubeDemo2")
-        property("sonar.host.url", "http://localhost:9000")
-        property("sonar.login", "sqp_56df20ab3b59a40b43040db6ef22c4b42cf0d2d0")
+        property("sonar.host.url", "http://35.208.92.137:9000")
+        property("sonar.login", "7b315355c4c26663615bb39a9908fd1977e854b3")
     }
 }
 
