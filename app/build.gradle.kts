@@ -7,7 +7,7 @@ sonarqube {
     properties {
         property("sonar.projectKey", "KetanB82_SonarQubeDemo2")
         property("sonar.projectName", "SonarQubeDemo2")
-        property("sonar.host.url", "http://35.208.92.137:9000")
+        property("sonar.host.url", "http://35.209.85.20:9000")
         property("sonar.login", "7b315355c4c26663615bb39a9908fd1977e854b3")
     }
 }

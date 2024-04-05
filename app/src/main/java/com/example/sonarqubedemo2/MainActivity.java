@@ -16,6 +16,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.sonarqubedemo2.databinding.ActivityMainBinding;
 
+import java.io.File;
+
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
@@ -66,5 +68,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void emptyFunction(){
 
+    }
+
+    public void creatNewFile(){
+        File myObj = new File("filename.txt");
+        int num = 10/0;
+        if (myObj.exists()) {
+            System.out.println("File created: " + myObj.getName());
+        } else {
+            System.out.println("File already exists.");
+        }
     }
 }
