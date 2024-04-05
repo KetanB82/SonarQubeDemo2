@@ -1,5 +1,6 @@
 package com.example.sonarqubedemo2;
 
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
@@ -17,6 +18,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.sonarqubedemo2.databinding.ActivityMainBinding;
 
 import java.io.File;
+import java.io.InputStream;
+import java.net.URL;
+import java.net.URLConnection;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -81,5 +85,13 @@ public class MainActivity extends AppCompatActivity {
 
         String s = null;
         s.length();
+
+
+        InputStream stream = null;
+        URL url = new URL("src");
+        URLConnection connection = url.openConnection();
+
+        InputStream input = connection.getInputStream();
+
     }
 }
