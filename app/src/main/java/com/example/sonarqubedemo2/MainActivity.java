@@ -87,11 +87,5 @@ public class MainActivity extends AppCompatActivity {
         s.length();
 
 
-        InputStream stream = null;
-        URL url = new URL("src");
-        URLConnection connection = url.openConnection();
-
-        InputStream input = connection.getInputStream();
-
     }
 }
