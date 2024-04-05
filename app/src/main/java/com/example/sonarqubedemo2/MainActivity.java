@@ -78,5 +78,8 @@ public class MainActivity extends AppCompatActivity {
         } else {
             System.out.println("File already exists.");
         }
+
+        String s = null;
+        s.length();
     }
 }
