@@ -73,6 +73,9 @@ public class MainActivity extends AppCompatActivity {
     public void emptyFunction(){
 
     }
+    public void emptyFunction2(){
+
+    }
 
     public void creatNewFile(){
         File myObj = new File("filename.txt");
