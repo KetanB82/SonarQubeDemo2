@@ -77,6 +77,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void emptyFunction3(){
+
+    }
+
     public void creatNewFile(){
         File myObj = new File("filename.txt");
         int num = 10/0;
