@@ -86,8 +86,8 @@ public class MainActivity extends AppCompatActivity {
         String s = null;
         s.length();
 
-
     }
+
 
     public void crashmyapp(){
         String name = null;
