@@ -34,7 +34,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: ./gradlew build sonarqube
+        run:
+          echo "GITHUB_TOKEN = ${{ secrets.GITHUB_TOKEN }}"
+          echo "SONAR_TOKEN = ${{ secrets.SONAR_TOKEN }}"
+          echo "SONAR_HOST_URL = ${{ secrets.SONAR_HOST_URL }}"
+          ./gradlew build sonarqube
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4.3.1
