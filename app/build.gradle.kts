@@ -7,7 +7,7 @@ sonarqube {
     properties {
         property("sonar.projectKey", "SonarQubeDemo2")
         //property("sonar.projectName", "SonarQubeDemo2")
-        property("sonar.host.url", "http://35.226.83.26:9000")
+        property("sonar.host.url", "http://35.239.145.55:9000")
         property("sonar.login", "77391648c120b0b19469fce35639a3c518d654fc")
         // new token 77391648c120b0b19469fce35639a3c518d654fc
     }
