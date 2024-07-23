@@ -12,7 +12,7 @@ sonarqube {
         // new token 77391648c120b0b19469fce35639a3c518d654fc
     }
 }
-
+//Test Comments
 android {
     namespace = "com.example.sonarqubedemo2"
     compileSdk = 34
