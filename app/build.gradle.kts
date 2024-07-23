@@ -5,10 +5,10 @@ plugins {
 
 sonarqube {
     properties {
-        property("sonar.projectKey", "KetanB82_SonarQubeDemo2")
-        property("sonar.projectName", "SonarQubeDemo2")
-        property("sonar.host.url", "http://35.209.133.104:9000")
-        property("sonar.login", "7b315355c4c26663615bb39a9908fd1977e854b3")
+        property("sonar.projectKey", "SonarQubeDemo2")
+        //property("sonar.projectName", "SonarQubeDemo2")
+        //property("sonar.host.url", "http://35.209.133.104:9000")
+        //property("sonar.login", "7b315355c4c26663615bb39a9908fd1977e854b3")
     }
 }
 
