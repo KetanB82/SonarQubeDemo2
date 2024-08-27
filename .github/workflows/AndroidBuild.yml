@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: sonar-runner #ubuntu-latest
+    runs-on: self-hosted #sonar-runner #ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
